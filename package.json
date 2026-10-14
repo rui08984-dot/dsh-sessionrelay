@@ -1,6 +1,6 @@
 {
-  "name": "@crx1146/dsh-sessionrelay",
-  "version": "0.1.0",
+  "name": "dsh-srelay-brief",
+  "version": "0.2.0",
   "type": "module",
   "main": "index.js",
   "license": "MIT",
@@ -25,6 +25,9 @@
     "url": "https://github.com/rui08984-dot/dsh-sessionrelay/issues"
   },
   "author": "rui08984-dot",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
   "dependencies": {
     "@deepseek-ai/dsh-tools": "0.2.0-rc.2"
   },
@@ -40,6 +43,9 @@
     "README.md",
     "README.zh-CN.md",
     "LICENSE",
+    "realboot.mjs",
+    "selftest.mjs",
+    "src/brief-sql.mjs",
     "src/cli.js",
     "src/tools.js",
     "src/state.js",
